@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+<div id="demoMap" style="width:640px;height:480px"></div>
+
+<script src="/static/js/OpenLayers.js"></script>
+<script src="/static/js/heatcanvas.js"></script>
+<script src="/static/js/heatcanvas-openlayers.js"></script>
+
+<script type="text/javascript">
+
+    var state_coordinates = {
+        'Andhra Pradesh'   :[16,79],
+        'Assam'            :[26,93],
+        'Bihar'            :[25,85],
+        'Chattisgarh'      :[22,82],
+        'Delhi'            :[28,77],
+        'Gujarat'          :[23,72],
+        'Haryana'          :[29,76],
+        'Himachal Pradesh' :[31,78],
+        'Jammu & Kashmir'  :[33,76],
+        'Jharkhand'        :[23,85],
+        'Karnataka'        :[13,76],
+        'Kerala'           :[10,76],
+        'Madhya Pradesh'   :[23,78],
+        'Maharashtra'      :[19,75],
+        'Orissa'           :[20,84],
+        'Punjab'           :[30,72],
+        'Rajasthan'        :[26,74],
+        'Tamil Nadu'       :[11,78],
+        'Uttar Pradesh'    :[27,80],
+        'West Bengal'      :[24,88]
+    };
+
+    <!-- var state_values = { -->
+    <!--     'Karnataka'   : 20, -->
+    <!--     'Kerala'      : 120, -->
+    <!--     'Maharashtra' : 50 -->
+    <!-- } -->
+
+    var state_values={{ data }}
+
+    map = new OpenLayers.Map("demoMap");
+    map.addLayer(new OpenLayers.Layer.OSM());
+    map.zoomToMaxExtent();
+
+
+    var heatmap2 = new OpenLayers.Layer.HeatCanvas("HeatCanvas", map, {},
+        {'step':0.3, 'degree':HeatCanvas.QUAD, 'opacity':0.35});
+
+    var sv, sc, _lat, _long, _val;
+
+    for (sv in state_values) {
+        if (state_values.hasOwnProperty(sv)) {
+            // get state coordinates
+            if (state_coordinates.hasOwnProperty(sv)) {
+                _lat = state_coordinates[sv][0];
+                _long = state_coordinates[sv][1];
+                _val = state_values[sv];
+
+                console.log('adding: ' + _lat + " | " + _long + " | " + _val);
+                heatmap2.pushData(_lat, _long, _val);
+            }
+        }
+    }
+
+    map.addLayer(heatmap2);
+</script>
+
+</body>
