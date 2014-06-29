@@ -5,7 +5,8 @@ from django.views.generic import TemplateView
 from django.core.urlresolvers import reverse
 
 urlpatterns = patterns('',
-                       (r'^mortality/', TemplateView.as_view(template_name="heatmap.html")),
-                       (r'^visualizer/', TemplateView.as_view(template_name="index.html")),
+                       #(r'^mortality/', TemplateView.as_view(template_name="heatmap.html")),
+                       #(r'^visualizer/', TemplateView.as_view(template_name="index.html")),
+                       (r'^$', TemplateView.as_view(template_name="index.html")),
                    )
 
