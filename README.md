@@ -9,7 +9,7 @@ It was a product of a day-long hackthon (journalists + coders), that took place 
 
 ***
 
-![Infant Mortality Rate Sample](https://raw.githubusercontent.com/arcolife/datahack/master/static/img/screenshot.png)
+![Infant Mortality Rate Sample](https://raw.githubusercontent.com/arcolife/datahack/master/static/img/datahack.png)
 
 
 **Usage**
