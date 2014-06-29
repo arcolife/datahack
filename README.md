@@ -1,7 +1,7 @@
 datahack / visualizer
 =====================
  
-It shows the mortality rates in India, in a certain year (probably it was 2005) ( data obtained from http://data.gov.in/ ) spread across the states, through a heatmap.
+It shows the infant mortality rates in India, in a certain year (probably it was 2005) ( data obtained from http://data.gov.in/ ) spread across the states, through a heatmap.
 
 > This was a quick prototype, developed within really constrained time limits. 
 > I don't remember the exact source of the data. 
