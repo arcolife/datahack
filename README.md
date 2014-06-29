@@ -18,7 +18,7 @@ It was a product of a day-long hackthon (journalists + coders), that took place 
 
 > python manage.py runserver
 
-Go to localhost:8000/visualizer and browse India's position on the map, 
+Go to localhost:8000 to browse India's position on the map, 
 zoom right in to see the distribution.
 
 **Issues**
