@@ -3,9 +3,10 @@ datahack / visualizer
  
 It shows the mortality rates in India, in a certain year (probably it was 2005) ( data obtained from http://data.gov.in/ ) spread across the states, through a heatmap.
 
-> Found this in my stash recently. 
+> This was a quick prototype, developed within really constrained time limits. 
+> I don't remember the exact source of the data. 
 
-It was a product of a day-long hackthon (journalists + coders), that took place around Feb'13. This repo is a revised version of the same, compatible with Django 1.6. [ Refer: https://bitbucket.org/arcolife/visualizer ]
+It was a product of a day-long hackthon (journalists + coders), that took place around Feb'13. This repo is a revised version of the same, compatible with Django 1.6.* 
 
 ***
 
@@ -21,10 +22,11 @@ It was a product of a day-long hackthon (journalists + coders), that took place 
 Go to http://localhost:8000 to browse India's position on the map, 
 zoom right in to see the distribution.
 
-**Issues**
+**Major credits:**
 
-This is just a quick demo. Refactoring is not exactly a procrastinator's cup of tea. But well, jokes apart, will do it when I have some time. Not the most important task on the list right now.
+On Bithucket/Github:
 
-**Credits**
-
-Github/Bitbucket -> aparashar, kanteshraj, ramniquesingh, arcolife
+* @aparashar
+* @kanteshraj
+* @ramniquesingh
+* @satyaakam
