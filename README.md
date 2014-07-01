@@ -6,7 +6,7 @@ It shows the infant mortality rates in India, in a certain year (probably it was
 > This was a quick prototype, developed within really constrained time limits. 
 > I don't remember the exact source of the data. 
 
-It was a product of [a day-long hackthon (journalists + coders)](https://www.facebook.com/media/set/?set=oa.476488175739797&type=1 *Facebook Album*), that [took place around Feb'13](http://satyaakam.net/?p=746 *Satyag's post*). This repo is a revised version of the same, compatible with Django 1.6.* 
+It was a product of [a day-long hackthon (journalists + coders)](https://www.facebook.com/media/set/?set=oa.476488175739797&type=1), that [took place around Feb'13](http://satyaakam.net/?p=746). This repo is a revised version of the same, compatible with Django 1.6.* 
 
 ***
 
