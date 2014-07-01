@@ -26,7 +26,7 @@ zoom right in to see the distribution.
 
 On Bithucket/Github:
 
-* @aparashar
+* @bhanuvrat
 * @kanteshraj
 * @ramniquesingh
 * @satyaakam
