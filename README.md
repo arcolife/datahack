@@ -24,8 +24,6 @@ zoom right in to see the distribution.
 
 **Major credits:**
 
-On Bithucket/Github:
-
 * @bhanuvrat
 * @kanteshraj
 * @ramniquesingh
