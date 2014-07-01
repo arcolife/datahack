@@ -1,12 +1,13 @@
 datahack / visualizer
 =====================
  
-It shows the infant mortality rates in India, in a certain year (probably it was 2005) ( data obtained from http://data.gov.in/ ) spread across the states, through a heatmap.
+It was a quick protype developed during the Big Data Hackathon organized by HackHackers Delhi Chapter.
 
-> This was a quick prototype, developed within really constrained time limits. 
-> I don't remember the exact source of the data. 
+The outcome was a heatmap of India, depicting the infant mortality rates in different states of India (probably in 2005; data obtained from http://data.gov.in/ ).
 
-It was a product of [a day-long hackthon (journalists + coders)](https://www.facebook.com/media/set/?set=oa.476488175739797&type=1), that [took place around Feb'13](http://satyaakam.net/?p=746). This repo is a revised version of the same, compatible with Django 1.6.* 
+It was a product of [a quick one-day hackthon (journalists + coders)](https://www.facebook.com/media/set/?set=oa.476488175739797&type=1), that [took place around Feb'13](http://satyaakam.net/?p=746). 
+
+This repo is a revised version of the same, compatible with Django 1.6.* 
 
 ***
 
@@ -22,7 +23,7 @@ It was a product of [a day-long hackthon (journalists + coders)](https://www.fac
 Go to http://localhost:8000 to browse India's position on the map, 
 zoom right in to see the distribution.
 
-**Major credits:**
+**Contributors:**
 
 * @bhanuvrat
 * @kanteshraj
